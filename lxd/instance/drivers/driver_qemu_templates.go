@@ -44,6 +44,7 @@ strict = "on"
 # Console
 [chardev "console"]
 backend = "pty"
+logfile = "{{.spicePath}}.console-log"
 
 # Graphical console
 [spice]
